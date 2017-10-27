@@ -1,0 +1,15 @@
+{
+    "name": "loytor/qcloud",
+    "description": "cos文件通过表单传输",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload" :{
+        "psr-4": {
+            "Loytor\\Qcloud\\Cos\\":"src/Cos"
+        }
+    }
+}
